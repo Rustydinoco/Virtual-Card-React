@@ -50,24 +50,25 @@ function Detail() {
 
 function Src() {
   return (
-    <ul className="sci">
-      <li>
-        <button>
-          <i class="fab fa-facebook-f"></i>
-        </button>
-      </li>
-      <li>
-        {" "}
-        <button>
-          <i class="fab fa-twitter"></i>
-        </button>
-      </li>
-      <li>
-        <button>
-          <i class="fab fa-instagram"></i>
-        </button>
-      </li>
-    </ul>
+    <>
+      <ul className="sci">
+        <li>
+          <a href="https://www.instagram.com/bilal_a_r04/?next=%2F">
+            <i class="fab fa-instagram"></i>
+          </a>
+        </li>
+        <li>
+          <a href="https://github.com/Rustydinoco">
+            <i class="fab fa-github"></i>
+          </a>
+        </li>
+        <li>
+          <a href="www.linkedin.com/in/bilal-achmad-84b43a274">
+            <i class="fab fa-linkedin"></i>
+          </a>
+        </li>
+      </ul>
+    </>
   );
 }
 
